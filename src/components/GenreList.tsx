@@ -31,6 +31,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
           <ListItem key={genre.id} paddingY="5px">
             <HStack>
               <Image
+                marginRight={4}
                 boxSize="32px"
                 borderRadius={8}
                 objectFit="cover"
